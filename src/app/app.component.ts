@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title:string;
+  name:string;
+
+  ngOnInit(){
+    this.title = "Binding Demo";
+    this.name = "Nimish";
+  }
 }
